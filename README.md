@@ -12,6 +12,12 @@ in on the server, which validates the request. If it's valid, another server req
 sub domain that you installed the sendy app with the sendy API routes. After the requests successfully
 completes, a user will get redirected to a completed screen. 
 
+
+### Sending mass emails with AWS SES
+Sendy connects with your AWS SES account which allows you to send a mass amount of emails very cheaply.
+You manage sending emails through the sendy interface which is installed on your sub domain AWS EC2 instance
+in the [sendy scripts](./sendy_installation_scripts) 
+
 How to:
 - Install [Sendy](https://sendy.co/) with these [scripts](./sendy_installation_scripts)
 
