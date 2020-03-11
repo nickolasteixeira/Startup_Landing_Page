@@ -6,7 +6,7 @@ Web App will run on AWS EC2 instance and communicate with the [sendy API](https:
 when a user adds their contact information. Before this can happen, you'll have to provision the 
 resources and run the installation scrips below to set up the sendy dashboard. 
 
-###Typical flow:
+### Typical flow:
 A user lands on the website and enters their information. That request is sent to `/beta` route
 in on the server, which validates the request. If it's valid, another server request is sent to the
 sub domain that you installed the sendy app with the sendy API routes. After the requests successfully
